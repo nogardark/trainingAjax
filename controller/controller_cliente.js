@@ -1,9 +1,11 @@
 function registrarCliente(){
+   // alert("alert");
     var nombre = $("#nombre").val();
     var apellido = $("#apellido").val();
     var ci = $("#ci").val();
     var email = $("#email").val();
-    //alert(nombre+"-"+ci+"-"+email);
+   // alert(nombre+"-"+ci+"-"+apellido+"-"+email);
+    
     var obj ={
         nombre : nombre,
         apellido : apellido,
